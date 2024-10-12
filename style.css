@@ -1,0 +1,658 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(./Assets1/body_bg.png);
+    background-color: rgb(28, 27, 27);
+    scroll-behavior: smooth;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+/* hero section start */
+.hero {
+    background: url(./Assets/wood\ bg.jpeg) no-repeat 100% 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-logo {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.tomato {
+    position: absolute;
+    top: -10%;
+    left: 25%;
+}
+
+.beer {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.chilli {
+    position: absolute;
+    bottom: -15%;
+}
+
+.can {
+    position: absolute;
+    right: 5%;
+}
+/* hero section start */
+
+/* nav bar start */
+.nav {
+    height: 10vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav img {
+    margin-left: 5vh;
+    height: 10vh;
+}
+
+.navb {
+    align-content: center;
+}
+
+.navb a {
+    padding-right: 1rem;
+    color: rgba(152, 133, 133, 1);
+}
+
+.navb a:hover {
+    color: #c22a2b;
+}
+/* nav bar end */
+
+/* hero section 2  start */
+.hero2 {
+    background: url(./Assets1/inner_bg.jpg) no-repeat 100%;
+    height: 60vh;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.hero2-left {
+    text-align: end;
+    font-size: 2.5rem;
+}
+
+.hero2b {
+    color: #87211d;
+    padding-top: 2rem;
+}
+/* hero section 2 end */
+
+/* coffee logo section start */
+.img-sec {
+    height: 15vh;
+    filter: grayscale(100%);
+}
+.img-sec:hover {
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+.coffee-logo-sec {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+    border-top: 2px dashed #816046;
+    padding-top: 5rem;
+}
+/* coffee logo section end */
+
+/* coffee section start */
+.coffee-sec {
+    height: 50vh;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2.5rem;
+    margin: 10rem 6rem 5rem;
+}
+
+.coffee-a {
+    border: 1px solid #a09287;
+    border-radius: 2rem;
+    height: 50vh;
+    padding: 2rem;
+    row-gap: 2rem;
+}
+
+.coffee-a:hover {
+    border: 2px solid #a18066;
+    box-shadow: 0 0 20px 1px #a18066;
+}
+
+.coffee-a1 {
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    row-gap: 1rem;
+}
+
+.coffee-a1 img {
+    height: 20vh;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.coffee-a2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    align-items: flex-end;
+}
+/* coffee section end */
+
+.rest {
+    text-align: center;
+    margin: 5rem 0;
+}
+/* menu section start */
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 3rem;
+    color: white;
+}
+
+.menu1 img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 1.1rem;
+}
+.menu1:hover img {
+    filter: brightness(50%);
+}
+
+
+.menu1 {
+    text-align: center;
+}
+
+.menu1 p {
+    color: gray;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-weight: bolder;
+    color: #a18066;
+}
+
+.menu1:hover .title {
+    color: #c22a2b;
+}
+/* menu section end */
+
+/* navigation arrow start */
+.arrow {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+    column-gap: 1rem;
+}
+.arrow a {
+    border: 0.1px solid gray;
+    border-radius: 2rem;
+    padding: .5rem 1.5rem;
+}
+.arr:hover {
+    background-color: #c22a2b;
+    border: #c22a2b;
+}
+/* navigation arrow end */
+
+/* drinks section start */
+.drinks {
+    color: #816046;
+    text-align: center;
+}
+.drinksa {
+    margin-bottom: 3rem;
+}
+.dra-title {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.d-dic {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.drinksb {
+    display: flex;
+    margin: 1rem 3rem;
+}
+.drinksb1 {
+    margin: 1rem;
+}
+.drinksb1:hover img {
+    transform: scale(1.1);
+}
+.betitle {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: antiquewhite;
+}
+.beedis {
+    color: rgb(118, 108, 108);
+}
+/* drinks section end */
+
+/* spmenu start */
+.spmenu {
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+}
+/* spmenu A start */
+.spmenu-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.spmenu-dis {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+/* spmenu A end */
+
+/* spmenu B start */
+.spmenu-b {
+    border: 2px dotted #816046;
+    border-radius: 2rem;
+    display: flex;
+    gap: 2rem;
+    width: fit-content;
+    padding: .5rem;
+    margin-left: 26%;
+    margin-top: 2rem;
+}
+.spmenuB-arr {
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.spmenuB-arr:hover {
+    background-color: #b08b6e;
+}
+/* spmenu B end */
+
+/* spmenu c start */
+.spmenu-c {
+    
+    margin: 5rem 5rem 0;
+    color: rgb(126, 126, 126);
+}
+.spm1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    border-bottom: 2px dashed gray;
+    padding: 1rem 0;
+}
+.sp1-img img {
+    height: 15vh;
+    border-radius: 1rem;
+}
+.sp1-img {
+    display: flex;
+    column-gap: 1rem;
+}
+.spm1:hover {
+    border-bottom: 3px dashed #b08b6e;
+}
+.spm1-sno {
+    font-size: 1.5rem;
+    color: #b08b6e;
+}
+.spmc-title {
+    font-size: 1.5rem;
+    text-align: start;
+    margin-bottom: 2rem;
+}
+.spmc-title-dis {
+    text-align: start;
+    line-height: 2rem;
+}
+.spmc-title-dis1 {
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center;
+}
+.spmc-price {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+    font-size: 1.5rem;
+}
+/* spmenu c end */
+
+/* footer start */
+.footera {
+    margin: 5rem 0;
+    text-align: center;
+    color: gray;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.footerb {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 0 5rem;
+    padding: 3rem 0;
+    border-top: 2px dashed gray;
+    border-bottom: 2px dashed gray;
+}
+.footerb1 p{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.footerb1 a {
+    display: block;
+    padding: .5rem 0;
+    color: gray;
+    font-size: 1.1rem;
+}
+.footerb1:hover p {
+    color: #816046;
+    transform: scale(1.1);
+}
+.copyright {
+    color: grey;
+    text-align: center;
+    margin: 2rem 0;
+}
+.copyright:hover {
+    transform: scale(1.5);
+    color: #c22a2b;
+}
+/* footer end */
+
+/* media queries */
+
+/* small mobile */
+@media screen and (width<=576px) {
+    .hero {
+        display: none;
+    }
+    .nav {
+        position: static;
+    }
+    .navb {
+        display: none;
+    }   
+    .nav img {
+        margin-top: 2rem;
+        margin-left: 25%;
+        height: 15vh;
+    }
+    .hero2 {
+        grid-template-columns: auto;
+        height: 100vh;
+    }
+    .hero2-left {
+        text-align: center;
+    }
+    .hero2-right {
+        text-align: center;
+    }
+    .coffee-logo-sec {
+        grid-template-columns: auto ;
+        border-top: none;
+        padding-top: 0;
+    }
+    .img-sec {
+        height: 20vh;
+    }
+    .coffee-sec {
+        grid-template-columns: auto;
+        height: auto;
+       row-gap: 1rem;
+       margin: 1rem;
+    }
+    .menu {
+        margin:0 1rem;
+        grid-template-columns: auto;
+        gap: 0;
+    }
+    .arrow {
+        margin: 0;
+        column-gap: 2px;
+    }
+    .arrow a {
+        padding: .5rem 1rem;
+    }
+    .drinksb {
+        display: block;
+        margin: 2rem 0;
+    }
+    .spmenu-b {
+        display: block;
+    }
+    .spmenu-c {
+        margin: 0;
+    }
+    .spm1 {
+        grid-template-columns: auto;
+        margin: 1rem;
+    }
+    .sp1-img {
+        display: block;
+        column-gap: 0;
+    }.spm1-sno {
+        margin-bottom: 1rem;
+    }
+    .spmc-title {
+        text-align: center;
+    }
+    .spmc-title-dis {
+        text-align: center;
+        line-height: 0;
+        margin-bottom: 2rem;
+    }
+    .footerb {
+        display: block;
+    }
+    .footerb1 {
+        text-align: center;
+    }
+}
+/* small mobile */
+
+/* tablet  */
+@media screen and (width>576px) and (width<=769px) {
+    .hero-logo img {
+        height: 20vh;
+    }
+    .hero-logo  {
+        top: 30%;
+    }
+    .cofee img {
+        height: 40vh;
+    }
+    .tomato img {
+        width: 80%;
+    }
+    .tomato {
+        top: -6%;
+    }
+    .beer img {
+        height: 40vh;
+    }
+    .chilli img {
+        width: 50%;
+    }
+    .chilli {
+        bottom: 0;
+    }
+    .can img {
+        height: 40vh;
+    }
+    .can {
+        right: 0;
+        bottom: 0;
+    }
+    .nav {
+        position: static;
+    }
+    .navb {
+        display: none;
+    }   
+    .nav img {
+        margin-top: 2rem;
+        margin-left: 50%; 
+        height: 10vh;
+    }
+    .hero2 {
+        grid-template-columns: auto auto;
+        height: 100vh;
+    }
+    .hero2-left {
+        text-align: center;
+    }
+    .hero2-right {
+        text-align: center;
+    }
+    .coffee-logo-sec {
+        grid-template-columns: auto  auto;
+        border-top: none;
+        padding-top: 0;
+        gap: 4rem;
+    }
+    .img-sec {
+        height: 20vh;
+    }
+    .coffee-sec {
+        grid-template-columns: auto auto;
+        height: auto;
+        margin: 10%;
+        row-gap: 20%;
+    }
+    .menu {
+        margin: 10rem 1rem 1rem;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+    }
+    .arrow {
+        margin: 0;
+        column-gap: 2px;
+    }
+    .arrow a {
+        padding: .5rem 1rem;
+    }
+    .drinksb {
+        display: block;
+        margin: 2rem 0;
+    }
+    .spmenu-b {
+        display: block;
+        margin-left: 35%;
+    }
+    .spmenu-c {
+        margin: 0;
+    }
+    .spm1 {
+        grid-template-columns: auto;
+        margin: 1rem;
+    }
+    .sp1-img {
+        display: block;
+        column-gap: 0;
+    }.spm1-sno {
+        margin-bottom: 1rem;
+    }
+    .spmc-title {
+        text-align: center;
+    }
+    .spmc-title-dis {
+        text-align: center;
+        line-height: 0;
+        margin-bottom: 2rem;
+    }
+    .spmc-title-dis1 {
+        justify-content: center;
+        margin: 2rem;
+    }
+    .footerb {
+        display: block;
+    }
+    .footerb1 {
+        text-align: center;
+    }
+}
+/* tablet */
+/* laptop */
+@media screen and (width>786px) and (width<=1024px) {
+    .hero-logo img {
+        height: 22vh;
+    }
+    .hero-logo  {
+        top: 30%;
+    }
+    .cofee img {
+        height: 40vh;
+    }
+    .tomato img {
+        width: 80%;
+    }
+    .tomato {
+        top: -6%;
+    }
+    .beer img {
+        height: 40vh;
+    }
+    .chilli img {
+        width: 50%;
+    }
+    .chilli {
+        bottom: 0;
+    }
+    .can img {
+        height: 40vh;
+    }
+    .can {
+        right: 0;
+        bottom: 0   ;
+    }  
+    .nav img {
+        margin-left: 1vh;
+    }
+    .navb a {
+        padding-right: .5rem;
+    }
+    .coffee-sec {
+        margin: 10rem 1rem 5rem;
+        column-gap: 1rem;
+    }
+}
+
