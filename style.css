@@ -296,8 +296,7 @@ a {
     gap: 2rem;
     width: fit-content;
     padding: .5rem;
-    margin-left: 26%;
-    margin-top: 2rem;
+    margin: 2rem auto;
 }
 .spmenuB-arr {
     padding: .5rem;
@@ -330,6 +329,9 @@ a {
 }
 .spm1:hover {
     border-bottom: 3px dashed #b08b6e;
+}
+.spm1:hover img {
+    transform: scale(1.2);
 }
 .spm1-sno {
     font-size: 1.5rem;
@@ -387,8 +389,16 @@ a {
     color: gray;
     font-size: 1.1rem;
 }
+.footera:hover p {
+    color: #816046;
+    transform: scale(1.2);
+}
 .footerb1:hover p {
     color: #816046;
+    transform: scale(1.1);
+}
+.fot-b1:hover {
+    color: #c22a2b;
     transform: scale(1.1);
 }
 .copyright {
@@ -454,6 +464,7 @@ a {
     }
     .spmenu-b {
         display: block;
+        margin: 1rem auto;
     }
     .spmenu-c {
         margin: 0;
@@ -563,8 +574,8 @@ a {
         margin: 2rem 0;
     }
     .spmenu-b {
-        display: block;
-        margin-left: 35%;
+        /* display: block; */
+        margin: 1rem auto;
     }
     .spmenu-c {
         margin: 0;
